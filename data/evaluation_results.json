@@ -1,0 +1,73 @@
+{
+  "per_response_evaluations": [
+    {
+      "incoming_email": "Hi, I was double charged for my Pro plan this month. Can you fix this immediately?",
+      "generated_reply": "Sorry to hear that you were double charged for your Pro plan. I'm going to look into this immediately and provide a refund if necessary. Please allow me 24 hours to resolve this issue.",
+      "evaluation": {
+        "policy_adherence": {
+          "score": 5,
+          "reason": "The reply adheres to the billing dispute policy by offering a refund or explanation within 24 hours."
+        },
+        "tone_empathy": {
+          "score": 4,
+          "reason": "The reply is polite and professional, but could be more empathetic in acknowledging the customer's frustration with being double charged."
+        },
+        "completeness_clarity": {
+          "score": 5,
+          "reason": "The reply directly addresses the customer's issue and provides a clear timeline for resolution."
+        },
+        "overall_score": 4.67,
+        "overall_reasoning": "The AI-generated reply effectively addresses the customer's concern and adheres to internal policies, but could benefit from a more empathetic tone to improve customer satisfaction.",
+        "calculated_weighted_score": 4.7
+      }
+    },
+    {
+      "incoming_email": "I want to cancel my subscription. How do I do that? Also, your UI is very confusing.",
+      "generated_reply": "You can cancel your subscription by going to this link: [link]. I apologize if our UI has caused any confusion - we're constantly working to improve it. If you need any help with the cancellation process, I'm here to assist you.",
+      "evaluation": {
+        "policy_adherence": {
+          "score": 5,
+          "reason": "The reply strictly followed the internal policy by providing a direct link to the cancellation page and offering assistance if needed."
+        },
+        "tone_empathy": {
+          "score": 5,
+          "reason": "The reply was polite, professional, and empathetic, acknowledging the customer's frustration with the UI and offering help."
+        },
+        "completeness_clarity": {
+          "score": 5,
+          "reason": "The reply directly and concisely answered the customer's question about cancelling their subscription."
+        },
+        "overall_score": 5.0,
+        "overall_reasoning": "The AI-generated reply perfectly adhered to internal policies, demonstrated a highly empathetic tone, and provided a clear and complete answer to the customer's question, resulting in a perfect overall score.",
+        "calculated_weighted_score": 5.0
+      }
+    },
+    {
+      "incoming_email": "Is there a way to assign tickets to specific agents in the shared inbox? I need this feature.",
+      "generated_reply": "Hiver does support assigning tickets to specific agents in the shared inbox. You can achieve this by using our 'Assign' feature, which allows you to delegate emails to team members. Can you please tell me more about your use case and how you plan to use this feature? I'll be happy to provide more information on how to set this up.",
+      "evaluation": {
+        "policy_adherence": {
+          "score": 0,
+          "reason": "The AI-generated reply completely ignored the internal policy for feature requests, which requires thanking the customer and providing a link to the public roadmap."
+        },
+        "tone_empathy": {
+          "score": 4,
+          "reason": "The reply is polite and professional, but lacks a clear expression of empathy or gratitude towards the customer's input."
+        },
+        "completeness_clarity": {
+          "score": 4,
+          "reason": "The reply directly answers the customer's question but also includes an unnecessary request for more information about the use case."
+        },
+        "overall_score": 2.67,
+        "overall_reasoning": "The AI-generated reply fails to adhere to internal policies and lacks empathy, but is mostly clear and complete in addressing the customer's question, resulting in a subpar overall performance.",
+        "calculated_weighted_score": 2.4
+      }
+    }
+  ],
+  "overall_system_scores": {
+    "policy_adherence": 3.33,
+    "tone_empathy": 4.33,
+    "completeness_clarity": 4.67,
+    "overall_score": 4.03
+  }
+}
