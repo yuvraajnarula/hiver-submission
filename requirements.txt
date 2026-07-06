@@ -1,0 +1,5 @@
+numpy
+python-dotenv
+pydantic
+groq
+sentence-transformers

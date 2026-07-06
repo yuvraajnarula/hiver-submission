@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "incoming_email": "I'm furious that I was charged again! I cancelled my subscription last month. Fix this now!",
+    "internal_policy": "For billing disputes, always offer a refund or an explanation of charges within 24 hours. Ensure the customer is satisfied before closing the ticket.",
+    "golden_reply": "Sorry to hear that you were charged again. I'm going to look into this immediately and provide a refund if necessary. Please allow me 24 hours to resolve this issue."
+  },
+  {
+    "id": 2,
+    "incoming_email": "Hi, I'm having trouble logging into my Hiver account. Can you help me?",
+    "internal_policy": "For login issues, always ask for the user's email address associated with the account and provide a password reset link if necessary.",
+    "golden_reply": "Sorry to hear you're having trouble logging in. Can you please provide the email address associated with your Hiver account? I'll be happy to assist you with a password reset if needed."
+  },
+  {
+    "id": 3,
+    "incoming_email": "I love Hiver, but I wish it had a feature to automate responses. Can you add this?",
+    "internal_policy": "For feature requests, always thank the customer for their input and provide a link to the public roadmap to vote on the feature.",
+    "golden_reply": "Thank you so much for your feedback! We appreciate your enthusiasm for Hiver. You can vote for the automated response feature on our public roadmap here: [link]."
+  },
+  {
+    "id": 4,
+    "incoming_email": "Your tool is not working properly. I'm getting an error message every time I try to assign a task.",
+    "internal_policy": "For bug reports, always ask for a screenshot of the error message and provide a temporary workaround if possible.",
+    "golden_reply": "Sorry to hear that you're experiencing an error. Can you please provide a screenshot of the error message you're seeing? In the meantime, you can try [temporary workaround] to achieve your goal."
+  },
+  {
+    "id": 5,
+    "incoming_email": "How do I cancel my subscription? I don't see an option in the settings.",
+    "internal_policy": "For cancellation requests, always provide a direct link to the cancellation page and offer assistance if needed.",
+    "golden_reply": "You can cancel your subscription by going to this link: [link]. If you need any help with the process, I'm here to assist you."
+  },
+  {
+    "id": 6,
+    "incoming_email": "I'm interested in upgrading to a higher plan. What are the benefits?",
+    "internal_policy": "For plan upgrade inquiries, always highlight the key benefits of the higher plan and provide a link to the pricing page.",
+    "golden_reply": "Upgrading to a higher plan will give you access to additional features such as [feature 1], [feature 2], and [feature 3]. You can find more information on our pricing page here: [link]."
+  },
+  {
+    "id": 7,
+    "incoming_email": "I'm getting too many notifications from Hiver. Can I customize them?",
+    "internal_policy": "For notification customization requests, always provide a link to the notification settings page and offer to help with setup.",
+    "golden_reply": "You can customize your notifications by going to this page: [link]. If you need help setting up your preferences, I'd be happy to guide you through the process."
+  },
+  {
+    "id": 8,
+    "incoming_email": "I've been using Hiver for a month now, and I'm not sure if it's the right tool for my team. Can I get a refund?",
+    "internal_policy": "For refund requests within the first 30 days, always review the customer's usage and provide a refund if they haven't received significant value from the tool.",
+    "golden_reply": "I'd be happy to review your usage and discuss a possible refund. Can you please tell me more about what you were expecting from Hiver and how it hasn't met your needs?"
+  },
+  {
+    "id": 9,
+    "incoming_email": "How do I integrate Hiver with my CRM?",
+    "internal_policy": "For integration requests, always provide a link to the integration documentation and offer to help with setup if needed.",
+    "golden_reply": "You can find instructions on how to integrate Hiver with your CRM here: [link]. If you need any assistance with the setup process, I'm here to help."
+  },
+  {
+    "id": 10,
+    "incoming_email": "I'm experiencing a delay in receiving emails in Hiver. Can you help me troubleshoot?",
+    "internal_policy": "For email delay issues, always ask for the customer's email address and the approximate time of the delay to investigate further.",
+    "golden_reply": "Sorry to hear that you're experiencing a delay. Can you please provide your email address associated with Hiver and the approximate time you noticed the delay? I'll investigate this further for you."
+  },
+  {
+    "id": 11,
+    "incoming_email": "Can I use Hiver with multiple email addresses?",
+    "internal_policy": "For multi-email address inquiries, always clarify the customer's use case and provide information on how Hiver supports multiple email addresses.",
+    "golden_reply": "Hiver does support multiple email addresses. Can you please tell me more about your use case and how you plan to use Hiver with multiple email addresses? I'll be happy to provide more information on how to set this up."
+  },
+  {
+    "id": 12,
+    "incoming_email": "I've forgotten my password and can't reset it. Can you help me?",
+    "internal_policy": "For password reset issues, always provide a direct link to the password reset page and offer to assist if the issue persists.",
+    "golden_reply": "You can reset your password by going to this link: [link]. If you're still having trouble, please let me know and I'll be happy to help you regain access to your account."
+  },
+  {
+    "id": 13,
+    "incoming_email": "Is Hiver compliant with GDPR?",
+    "internal_policy": "For GDPR compliance inquiries, always provide a link to the compliance page and highlight Hiver's commitment to data protection.",
+    "golden_reply": "Yes, Hiver is compliant with GDPR. You can find more information about our compliance on this page: [link]. We take data protection very seriously and are committed to ensuring the security of your data."
+  },
+  {
+    "id": 14,
+    "incoming_email": "Can I get a demo of Hiver before committing to a paid plan?",
+    "internal_policy": "For demo requests, always provide a link to the demo page and offer to schedule a personalized demo if needed.",
+    "golden_reply": "You can schedule a demo of Hiver on this page: [link]. If you'd like a personalized demo tailored to your team's needs, I'd be happy to set that up for you."
+  },
+  {
+    "id": 15,
+    "incoming_email": "I'm interested in learning more about Hiver's security features. Can you provide more information?",
+    "internal_policy": "For security feature inquiries, always provide a link to the security page and highlight Hiver's security measures.",
+    "golden_reply": "Hiver takes security very seriously. You can find detailed information about our security features on this page: [link]. If you have any specific questions or concerns, I'm here to address them."
+  }
+]
