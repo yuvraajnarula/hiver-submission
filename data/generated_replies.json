@@ -1,0 +1,56 @@
+[
+  {
+    "incoming_email": "Hi, I was double charged for my Pro plan this month. Can you fix this immediately?",
+    "retrieved_context": [
+      {
+        "id": 1,
+        "incoming_email": "I'm furious that I was charged again! I cancelled my subscription last month. Fix this now!",
+        "internal_policy": "For billing disputes, always offer a refund or an explanation of charges within 24 hours. Ensure the customer is satisfied before closing the ticket.",
+        "golden_reply": "Sorry to hear that you were charged again. I'm going to look into this immediately and provide a refund if necessary. Please allow me 24 hours to resolve this issue."
+      },
+      {
+        "id": 12,
+        "incoming_email": "I've forgotten my password and can't reset it. Can you help me?",
+        "internal_policy": "For password reset issues, always provide a direct link to the password reset page and offer to assist if the issue persists.",
+        "golden_reply": "You can reset your password by going to this link: [link]. If you're still having trouble, please let me know and I'll be happy to help you regain access to your account."
+      }
+    ],
+    "generated_reply": "Sorry to hear that you were double charged for your Pro plan. I'm going to look into this immediately and provide a refund if necessary. Please allow me 24 hours to resolve this issue."
+  },
+  {
+    "incoming_email": "I want to cancel my subscription. How do I do that? Also, your UI is very confusing.",
+    "retrieved_context": [
+      {
+        "id": 5,
+        "incoming_email": "How do I cancel my subscription? I don't see an option in the settings.",
+        "internal_policy": "For cancellation requests, always provide a direct link to the cancellation page and offer assistance if needed.",
+        "golden_reply": "You can cancel your subscription by going to this link: [link]. If you need any help with the process, I'm here to assist you."
+      },
+      {
+        "id": 1,
+        "incoming_email": "I'm furious that I was charged again! I cancelled my subscription last month. Fix this now!",
+        "internal_policy": "For billing disputes, always offer a refund or an explanation of charges within 24 hours. Ensure the customer is satisfied before closing the ticket.",
+        "golden_reply": "Sorry to hear that you were charged again. I'm going to look into this immediately and provide a refund if necessary. Please allow me 24 hours to resolve this issue."
+      }
+    ],
+    "generated_reply": "You can cancel your subscription by going to this link: [link]. I apologize if our UI has caused any confusion - we're constantly working to improve it. If you need any help with the cancellation process, I'm here to assist you."
+  },
+  {
+    "incoming_email": "Is there a way to assign tickets to specific agents in the shared inbox? I need this feature.",
+    "retrieved_context": [
+      {
+        "id": 3,
+        "incoming_email": "I love Hiver, but I wish it had a feature to automate responses. Can you add this?",
+        "internal_policy": "For feature requests, always thank the customer for their input and provide a link to the public roadmap to vote on the feature.",
+        "golden_reply": "Thank you so much for your feedback! We appreciate your enthusiasm for Hiver. You can vote for the automated response feature on our public roadmap here: [link]."
+      },
+      {
+        "id": 11,
+        "incoming_email": "Can I use Hiver with multiple email addresses?",
+        "internal_policy": "For multi-email address inquiries, always clarify the customer's use case and provide information on how Hiver supports multiple email addresses.",
+        "golden_reply": "Hiver does support multiple email addresses. Can you please tell me more about your use case and how you plan to use Hiver with multiple email addresses? I'll be happy to provide more information on how to set this up."
+      }
+    ],
+    "generated_reply": "Hiver does support assigning tickets to specific agents in the shared inbox. You can achieve this by using our 'Assign' feature, which allows you to delegate emails to team members. Can you please tell me more about your use case and how you plan to use this feature? I'll be happy to provide more information on how to set this up."
+  }
+]
